@@ -1,0 +1,6 @@
+@WM_ControlIngreso_Api_HostAddress = http://localhost:5202
+
+GET {{WM_ControlIngreso_Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
