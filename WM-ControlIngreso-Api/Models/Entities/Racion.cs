@@ -3,7 +3,7 @@
     public class Racion
     {
         public int IdRaciones { get; set; }
-        public string NombreRacion { get; set; }
+        public string NombreRacion { get; set; } = string.Empty;
         public DateTime FechaCreacion { get; set; } = DateTime.Now;
         public DateTime? FechaUpdate { get; set; }
     }

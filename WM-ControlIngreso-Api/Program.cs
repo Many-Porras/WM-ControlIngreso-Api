@@ -28,7 +28,8 @@ builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 builder.Services.AddScoped<ISubvencionRepository, SubvencionRepository>();
 builder.Services.AddScoped<ISubvencionService, SubvencionService>();
-
+builder.Services.AddScoped<IRacionRepository, RacionRepository>();
+builder.Services.AddScoped<IRacionService, RacionService>();
 
 // 3. Configura Swagger, si lo usas
 builder.Services.AddEndpointsApiExplorer();
